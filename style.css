@@ -1,0 +1,27 @@
+table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 0;
+        }
+ th, td:first-of-type{
+            padding: 10px;
+        }
+    
+ .winner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .gold{
+            background: rgb(255, 255, 0);
+        }
+        .silver{
+            background: rgba(211, 211, 211, 0.801);
+        }
+        .bronze{
+            background: rgba(255, 166, 0, 0.514);
+        }
